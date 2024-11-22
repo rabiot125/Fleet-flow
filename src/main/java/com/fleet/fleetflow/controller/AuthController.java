@@ -13,7 +13,6 @@ import java.io.IOException;
 @RestController
 @RequestMapping("/auth")
 public class AuthController {
-
     private final String clientId = "";
     private final String clientSecret = "";
     private final String redirectUri = "http://localhost:8080/auth/callback";
